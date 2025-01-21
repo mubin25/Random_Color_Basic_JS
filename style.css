@@ -1,0 +1,54 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the heading */
+.heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Styling for the buttons */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#start:hover {
+    background-color: #45a049;
+}
+
+#stop {
+    background-color: #f44336;
+    color: white;
+}
+
+#stop:hover {
+    background-color: #e53935;
+}
+
+div {
+    margin-top: 20px;
+}
